@@ -4,7 +4,7 @@ const moment = require('moment');
 require('moment/locale/pt-br');
 
 // Configurações do bot
-const token = '7893050736:AAHCjwn4MUEXZjDXzCMhkPIDY8XbPamt99A';
+const token = '';
 const bot = new TelegramBot(token, { polling: true });
 const pontuacoes = {}; // Armazena pontuação dos usuários
 
